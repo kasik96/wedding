@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Stripo.email
+BEGIN:VEVENT
+UID:663bf2d3081d4
+DTSTAMP:20240508T214659Z
+SUMMARY:Tereza & Jakub - Svatba
+DESCRIPTION:10:30 Příjezd hostů\, welcome drink\n\n11:30 Obřad\n\n13:00
+  Společný oběd\n\n14:30 Krájení svatebního dortu\, sweet bar\n\n17:0
+ 0 První tanec\n\n18:00 Odpolední raut\n\n22:00 Večerní občerstvení
+LOCATION:Velvarská 36\, Olovnice
+CLASS:PUBLIC
+DTSTART:20240803T083000Z
+DTEND:20240803T220000Z
+END:VEVENT
+END:VCALENDAR

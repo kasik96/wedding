@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tereza & Jakub - Sobota 3.8.2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      h1 {
+        color: #8a2be2;
+      }
+      h2 {
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      form {
+        margin-top: 20px;
+      }
+      .header {
+        text-align: center;
+        background-image: url('left_bg.svg'), url('right_bg.svg'),
+          url('center_header.svg');
+        background-position: left top, right top, center center;
+        background-repeat: no-repeat;
+        background-size: 320px, 350px, 350px;
+        width: 100%;
+      }
+      .footer {
+        text-align: center;
+        background-image: url('footer.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 250px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .footer p {
+        margin: 5px;
+      }
+      .footer h3 {
+        margin: 10px;
+      }
+      .header img {
+        margin-top: 20px;
+        width: 200px;
+      }
+      .header h3 {
+        margin: 20px;
+      }
+      .info {
+        width: 100%;
+        text-align: center;
+      }
+      .info div {
+        margin-top: 30px;
+      }
+      .info p {
+        margin: 5px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .date {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .harmonogram {
+        text-align: center;
+        margin-top: 80px;
+      }
+      .harmonogram img {
+        margin-bottom: 20px;
+        width: 300px;
+      }
+      .harmonogram p {
+        margin: 5px;
+        font-size: 20px;
+      }
+      .menu {
+        text-align: center;
+        margin-top: 80px;
+      }
+      .menu img {
+        margin-bottom: 20px;
+        width: 125px;
+      }
+      .menu p {
+        margin: 5px;
+        font-size: 20px;
+      }
+      .map {
+        text-align: center;
+        margin-top: 80px;
+      }
+      .btn {
+        background: rgb(255, 170, 55);
+        background: linear-gradient(
+          0deg,
+          rgba(255, 170, 55, 0.7483368347338936) 0%,
+          rgba(255, 183, 55, 0.7959558823529411) 100%
+        );
+        -webkit-border-radius: 45;
+        -moz-border-radius: 45;
+        border-radius: 45px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border: 0;
+        margin-top: 20px;
+      }
+
+      .btn:hover {
+        background: rgb(204, 146, 44);
+        background: linear-gradient(
+          0deg,
+          rgba(204, 146, 44, 0.773546918767507) 0%,
+          rgba(255, 183, 55, 0.7819502801120448) 100%
+        );
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="tereza-a-jakub.svg" />
+      <h3>OZNAMUJÍ, ŽE SE Z NICH STANOU MANŽELÉ</h3>
+    </div>
+
+    <div class="info">
+      <img class="date" src="date.svg" />
+      <p>11:30 hodin</p>
+      <p>MLÝNSKÁ ZAHRADA</p>
+      <p>Velvarská 36, Olovnice</p>
+      <div>
+        <a
+          href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240803T083000Z%2F20240803T220000Z&details=10%3A30%20P%C5%99%C3%ADjezd%20host%C5%AF%2C%20welcome%20drink%0A%0A11%3A30%20Ob%C5%99ad%0A%0A13%3A00%20Spole%C4%8Dn%C3%BD%20ob%C4%9Bd%0A%0A14%3A30%20Kr%C3%A1jen%C3%AD%20svatebn%C3%ADho%20dortu%2C%20sweet%20bar%0A%0A17%3A00%20Prvn%C3%AD%20tanec%0A%0A18%3A00%20Odpoledn%C3%AD%20raut%0A%0A22%3A00%20Ve%C4%8Dern%C3%AD%20ob%C4%8Derstven%C3%AD%0A%0A&location=Velvarsk%C3%A1%2036%2C%20Olovnice&text=Tereza%20%26%20Jakub%20-%20Svatba"
+          class="btn"
+          >Přidat do kalendáře</a
+        >
+      </div>
+    </div>
+
+    <div class="harmonogram">
+      <img src="harmonogram.svg" />
+      <p>10:30 Příjezd hostů, welcome drink</p>
+      <p>11:30 Obřad</p>
+      <p>13:00 Společný oběd</p>
+      <p>14:30 Krájení svatebního dortu, sweet bar</p>
+      <p>17:00 První tanec</p>
+      <p>18:00 Odpolední raut</p>
+      <p>22:00 Večerní občerstvení</p>
+    </div>
+
+    <div class="menu">
+      <img src="menu.svg" />
+      <p>10:30 Welcome drink a kanapky</p>
+      <p>13:00 Společný oběd - hovězí vývar a svíčková</p>
+      <p>14:30 Sweet bar a svatební dort</p>
+      <p>18:00 Odpolední raut</p>
+      <p>22:00 Vecerni občerstvení</p>
+    </div>
+
+    <div class="map">
+      <iframe
+        style="border: none"
+        src="https://en.frame.mapy.cz/s/jucevovuza"
+        width="90%"
+        height="333"
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <div class="footer">
+      <h3>DŮLEŽITÉ KONTAKTY</h3>
+      <p>Adresa, web a tel. na ubytování v penzionu je:</p>
+      <p>S dotazy se obracejte na svědkyni Nevim, tel. 777 666 999</p>
+    </div>
+  </body>
+</html>
